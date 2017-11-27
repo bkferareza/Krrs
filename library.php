@@ -6,7 +6,7 @@ if(!isset($_SESSION['username'])) {
 }
 $timezone = "Asia/Manila";
 if(function_exists('date_default_timezone_set')) date_default_timezone_set($timezone);
-include("database/config.php");
+include 'tools/connection.php';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -59,6 +59,9 @@ $('#as').load('backup.php').fadeIn("slow");
                     <a href="about.php">About</a>
                     <a href="contact.php">Contact Us</a>
                     <a href="location.php">Hours and Location</a>
+					<a href="logout.php">Logout</a>
+					<a href="/public/faq.php">FAQ</a>
+					<a href="/tools/admin.php">Admin Tools</a>
                 </div>
                 
                 <div class="cleaner"></div>

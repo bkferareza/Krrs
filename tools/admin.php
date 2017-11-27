@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Barcode for Books</title>
+	<title>Tools for Books</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <script language="javascript" src="js/jquery-1.4.2.min.js"></script>
 <script language="javascript" src="js/JsBarcode.all.min.js"></script>
